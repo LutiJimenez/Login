@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:Login="http://schemas.android.com/tools" Login:context=".Log_In"
+    Login:icon="@drawable/menu_item" Login:menu="@drawable/menu_item">
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100" Login:showAsAction="never" />
+    <item android:id="@+id/action_about" android:title="@string/action_about"
+        android:orderInCategory="200" Login:showAsAction="never" />
+    </menu>

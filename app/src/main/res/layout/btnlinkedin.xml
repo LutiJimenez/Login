@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/selectorbtn"
+    android:clickable="true"
+    android:onClick="linkedin">
+    <!-- Contenedor para el logo de la red social -->
+    <RelativeLayout
+        android:layout_width="50dp"
+        android:layout_height="match_parent">
+        <!-- Logo -->
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/linkedin_icon"/>
+        <!-- Separador -->
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/icons"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+    <!-- Texto -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:gravity="center|center_vertical"
+        android:text="Linkedin"
+        android:textColor="@color/icons"
+        />
+
+</LinearLayout>

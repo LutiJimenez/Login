@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity=""
+        android:contentDescription="background"
+        android:scaleType="centerCrop"
+        android:src="@drawable/fondo" />
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="aaluti.login.SobreMi"
+    >
+    <!--android:background="@color/background"-->
+
+
+    <include
+        android:id="@+id/experiencia_button"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        layout="@layout/btnexperiencia"
+        android:layout_below="@+id/mas_button"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="30dp"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/mail_button" />
+    <include
+        android:id="@+id/mail_button"
+        android:layout_marginTop="10dp"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        layout="@layout/btn_mandar_mail"
+        android:layout_below="@+id/experiencia_button"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"/>
+    <include
+        android:id="@+id/lin_button"
+        android:layout_marginTop="10dp"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        layout="@layout/btnlinkedin"
+        android:layout_below="@+id/mail_button"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"/>
+    <include
+        android:id="@+id/tel_button"
+        android:layout_marginTop="10dp"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        layout="@layout/btntelefono"
+        android:layout_below="@+id/lin_button"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"/>
+
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="159dp"
+            android:layout_height="166dp"
+            android:gravity="left"
+            android:src="@drawable/perfil"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/shadow_rect"/>
+
+    <TextView
+    android:layout_width="100dp"
+    android:layout_height="200dp"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:text="Jiménez Gómez, Lutgardo"
+    android:id="@+id/textView2"
+        android:layout_alignTop="@+id/imageView1"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/imageView1"
+        android:layout_above="@+id/mas_button"
+        android:textSize="22dp"
+        android:textStyle="normal|bold"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <include
+        android:id="@+id/mas_button"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        layout="@layout/btnmasinfo"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="190dp"
+        android:layout_alignBottom="@+id/imageView1"
+        android:layout_alignParentStart="true" />
+
+
+
+</RelativeLayout>
+</merge>

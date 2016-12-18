@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <!-- Pointer to Overflow style DONT forget! -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--        <item name="android:actionOverflowButtonStyle">@style/ActionButtonOverflow</item>
+
+                &lt;!&ndash; Support library compatibility &ndash;&gt;
+                <item name="actionOverflowButtonStyle">@style/ActionButtonOverflow</item>
+                <item name="homeAsUpIndicator">@drawable/ic_action_atras</item>
+                <item name="android:homeAsUpIndicator">@drawable/ic_action_atras</item>-->
+
+    </style>
+
+    <!--   <style name="ActionButtonOverflow" parent="@style/Widget.AppCompat.ActionButton.Overflow">
+           <item name="android:src">@drawable/menu_item</item>
+       </style>-->
+
+</resources>
